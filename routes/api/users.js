@@ -7,13 +7,12 @@ const User = require('../../models/User');
 // @access  Public 
 router.post('/', 
    async (req, res) => { 
-       console.log(req.body);
 
     const { name, email, age, city, gender } = req.body; 
 
     // See if user exists
     try {
-        //This is MongoDB documentation
+        
         let user = await User.findOne({ email });
 
         // See if user exists 
