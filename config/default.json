@@ -1,3 +1,4 @@
 { 
-    "mongoURI": "mongodb+srv://CRUDAdmin:B3DX2dYbiSli43ln@cluster0-l2h1a.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://CRUDAdmin:B3DX2dYbiSli43ln@cluster0-l2h1a.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "mysecretToken"
 }
